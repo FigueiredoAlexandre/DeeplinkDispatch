@@ -1,0 +1,17 @@
+ext {
+
+    versions = [
+            composeUi: '1.1.1'
+    ]
+
+    compose = [
+            composeUi      : 'androidx.compose.ui:ui:${versions.composeUi}',
+            composePreview : 'androidx.compose.ui:ui-tooling-preview:${versions.composeUi}',
+            composeMaterial: 'androidx.compose.material:material:${versions.composeUi}'
+    ]
+
+    deeplinkDispatch = [
+            airbnbDeeplink         : 'com.airbnb:deeplinkdispatch:6.1.0',
+            airbnbDeeplinkProcessor: 'com.airbnb:deeplinkdispatch-processor:6.1.0'
+    ]
+}

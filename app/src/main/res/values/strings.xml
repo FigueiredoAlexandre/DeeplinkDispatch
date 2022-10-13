@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DeeplinkDispatch</string>
+    <string name="go_to_feature_two">go to feature two</string>
+</resources>
